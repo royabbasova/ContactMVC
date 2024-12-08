@@ -1,0 +1,13 @@
+﻿@model Contact
+<link href="~/css/Contact.css" rel="stylesheet" />
+@section Contact {
+    
+}
+
+<a asp-controller="Contact" asp-action="Details" asp-route-id="@Model.ID">
+    <div id="contact_cards">
+        <p>ID: @Model.ID</p>
+        <p>Name: @Model.Name</p>
+        <p>Surname: @Model.Surname</p>
+    </div>
+</a>

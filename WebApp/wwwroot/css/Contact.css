@@ -1,0 +1,11 @@
+﻿#contact_cards {
+    border: 2px solid #ff0000;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    style =color: black; 
+    text-decoration: none;
+}
